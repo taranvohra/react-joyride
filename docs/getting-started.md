@@ -8,19 +8,19 @@ icon: rocket-launch
 {% step %}
 ### Install react-joyride
 
-npm install react-joyride
+`npm install react-joyride`
 {% endstep %}
 
 {% step %}
 ### Run the development server
 
-npm run dev
+`npm run dev`
 {% endstep %}
 
 {% step %}
 ### Make your changes
 
-See hot reloading in action
+See hot reloading in action :fire:
 {% endstep %}
 {% endstepper %}
 
