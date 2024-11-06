@@ -2,6 +2,7 @@
 description: >-
   If you are coming from V1, make sure to follow this guide to upgrade your
   setup.
+icon: ship
 ---
 
 # Migration
@@ -12,13 +13,13 @@ V2 uses inline styles instead of SCSS/CSS, so you must remove the imports. Check
 
 ## Props
 
-### Renamed \(breaking\)
+### Renamed (breaking)
 
 **allowClicksThruHole** ▶︎ **spotlightClicks**
 
 **disableOverlay** `false` ▶︎ **disableOverlayClicks** `false`
 
-**keyboardNavigation** `true` ▶︎ **disableCloseOnEsc** `false`  
+**keyboardNavigation** `true` ▶︎ **disableCloseOnEsc** `false`\
 the space, return, and tab keys are now controlled with tabIndex
 
 **scrollToSteps** `true` ▶︎ disableScrolling `false`
@@ -33,9 +34,9 @@ the space, return, and tab keys are now controlled with tabIndex
 
 **type** `'single'` ▶︎ **continuous** `false`
 
-### Removed \(breaking\)
+### Removed (breaking)
 
-**autoStart** \(use the `disableBeacon` prop on the first step\)
+**autoStart** (use the `disableBeacon` prop on the first step)
 
 **offsetParent**
 
@@ -47,10 +48,10 @@ the space, return, and tab keys are now controlled with tabIndex
 
 There are a few changes to the step syntax too:
 
-**selector** ▶︎ **target**  
+**selector** ▶︎ **target**\
 Now, it supports HTMLElement and string.
 
-**position** ▶︎ **placement**  
+**position** ▶︎ **placement**\
 The default is **bottom** now.
 
 **text** ▶︎ **content**
@@ -59,6 +60,5 @@ The default is **bottom** now.
 
 **allowClicksThruHole** ▶︎ **spotlightClicks**
 
-**style** ▶︎ **styles**  
+**style** ▶︎ **styles**\
 The properties have changed. Be sure to update to the new [syntax](styling.md).
-

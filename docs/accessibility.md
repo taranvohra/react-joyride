@@ -1,3 +1,7 @@
+---
+icon: accessible-icon
+---
+
 # Accessibility
 
 react-joyride aims to be fully accessible, using the [WAI-ARIA](https://www.w3.org/WAI/intro/aria) guidelines to support users of assistive technologies.
@@ -7,4 +11,3 @@ react-joyride aims to be fully accessible, using the [WAI-ARIA](https://www.w3.o
 When the dialog is open, the TAB key will keep the focus on the dialog elements (input|select|textarea|button|object) within its contents. Elements outside the tooltip will not receive focus.
 
 When the tooltip is closed the focus returns to the default.
-

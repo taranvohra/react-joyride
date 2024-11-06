@@ -1,3 +1,7 @@
+---
+icon: cubes-stacked
+---
+
 # Custom Components
 
 You can use custom components to have complete control of the UI. They will receive data through props and need to be a React class or forwardRef since it needs to set `ref.`
@@ -82,11 +86,11 @@ export function App() {
 
 **closeProps** {object}: The close button's props
 
-**primaryProps** {object}: The primary button's props \(Close or Next if the tour is continuous\)
+**primaryProps** {object}: The primary button's props (Close or Next if the tour is continuous)
 
 **skipProps** {object}: The skip button's props
 
-**tooltipProps** {object}: The root element props \(including `ref`\)
+**tooltipProps** {object}: The root element props (including `ref`)
 
 ### Example with css classes
 

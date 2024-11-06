@@ -1,6 +1,10 @@
+---
+icon: phone
+---
+
 # Callback
 
-You can get Joyride's state changes using the `callback` prop.  
+You can get Joyride's state changes using the `callback` prop.\
 It will receive an object with the current state.
 
 ## Example data

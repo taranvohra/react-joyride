@@ -1,3 +1,9 @@
+---
+icon: react
+cover: .gitbook/assets/image.png
+coverY: -111
+---
+
 # Overview
 
 [![Joyride example image](http://gilbarbara.com/files/react-joyride.png)](https://react-joyride.com/)
@@ -6,10 +12,10 @@
 
 Showcase your app to new users or explain the functionality of new features.
 
-It uses [react-floater](https://github.com/gilbarbara/react-floater) for positioning and styling.  
+It uses [react-floater](https://github.com/gilbarbara/react-floater) for positioning and styling.\
 You can also use your own components.
 
-**Open the** [**demo**](https://react-joyride.com/)  
+**Open the** [**demo**](https://react-joyride.com/)\
 **Open GitHub** [**repo**](https://github.com/gilbarbara/react-joyride)
 
 ## Setup

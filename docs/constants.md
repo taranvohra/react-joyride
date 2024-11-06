@@ -1,6 +1,10 @@
+---
+icon: list-ol
+---
+
 # Constants
 
-Joyride uses a few constants to keep its state and lifecycle.  
+Joyride uses a few constants to keep its state and lifecycle.\
 You should use them in your component for the callback events.
 
 ```typescript

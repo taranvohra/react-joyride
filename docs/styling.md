@@ -1,10 +1,14 @@
+---
+icon: paintbrush
+---
+
 # Styling
 
-Version 2 uses inline styles instead of V1 SCSS.  
-To update the default theme, just pass a `styles` prop to the Joyride component,  
+Version 2 uses inline styles instead of V1 SCSS.\
+To update the default theme, just pass a `styles` prop to the Joyride component,\
 You can control the overall theme with the special `options` object.
 
-```text
+```
 const defaultOptions = {
   arrowColor: '#fff',
   backgroundColor: '#fff',
