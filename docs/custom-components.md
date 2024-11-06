@@ -4,6 +4,10 @@ icon: cubes-stacked
 
 # Custom Components
 
+{% include ".gitbook/includes/pro-plan-hint.md" %}
+
+
+
 You can use custom components to have complete control of the UI. They will receive data through props and need to be a React class or forwardRef since it needs to set `ref.`
 
 {% hint style="info" %}

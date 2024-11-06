@@ -4,6 +4,10 @@ icon: phone
 
 # Callback
 
+{% include ".gitbook/includes/pro-plan-hint.md" %}
+
+
+
 You can get Joyride's state changes using the `callback` prop.\
 It will receive an object with the current state.
 

@@ -1,11 +1,15 @@
 ---
+icon: ship
 description: >-
   If you are coming from V1, make sure to follow this guide to upgrade your
   setup.
-icon: ship
 ---
 
 # Migration
+
+{% include ".gitbook/includes/pro-plan-hint.md" %}
+
+
 
 ## Styling
 

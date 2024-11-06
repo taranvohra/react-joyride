@@ -4,6 +4,10 @@ icon: list-ol
 
 # Constants
 
+{% include ".gitbook/includes/pro-plan-hint.md" %}
+
+
+
 Joyride uses a few constants to keep its state and lifecycle.\
 You should use them in your component for the callback events.
 
