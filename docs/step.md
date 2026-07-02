@@ -6,7 +6,7 @@ icon: stairs
 
 The step is a plain object that only requires two properties to be valid: `target` and `content`.
 
-```
+```javascript
 {
   target: '.my-selector',
   content: 'This is my super awesome feature!'
@@ -60,7 +60,7 @@ The beacon's placement can be top, bottom, left, or right. If nothing is passed,
 Override the [styling](styling.md) of the step's Tooltip
 
 **target** `HTMLElement|string` - **required**\
-The target for the step. It can be a [CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS\_Selectors) or an HTMLElement directly (but using refs created in the same render would require an additional render to be set).
+The target for the step. It can be a [CSS selector](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) or an HTMLElement directly (but using refs created in the same render would require an additional render to be set).
 
 **title** `ReactNode`\
 The tooltip's title.
